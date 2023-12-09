@@ -42,10 +42,12 @@ button {
     line-height: normal;
     letter-spacing: 1px;
     cursor: pointer;
+    transition: .3s ease-in-out;
 }
 
 button:hover {
     opacity: 0.8;
+    border: 1px solid blue;
 }
 
 button:active {
